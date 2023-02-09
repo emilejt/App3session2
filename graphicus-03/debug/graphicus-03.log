@@ -1,0 +1,4 @@
+﻿  canevas.cpp
+canevas.cpp(113,34): warning C4100: 's': unreferenced formal parameter
+C:\Users\emile\OneDrive\Documents\graphicus-03\canevas.cpp(321): warning C4715: 'Canevas::etatCoucheString': not all control paths return a value
+  graphicus-03.vcxproj -> C:\Users\emile\OneDrive\Documents\graphicus-03\debug\graphicus-03.exe
