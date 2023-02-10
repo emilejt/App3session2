@@ -1,0 +1,99 @@
+TESTS APPLICATION (CAS 01)
+
+Etape 1 : Activation de la couche 1
+
+Etape 2 : Ajout des trois formes geometrique suivantes : 
+	-Un rectangle (x=0, y=0, largeur=2, hauteur=3)
+	-Un carré (x=2, y=3, côté=4)
+	-Un cercle (x=7, y=8, rayon=6)
+
+Etape 3 : Activation de la couche 2
+
+Etape 4 : Ajout de la forme geometrique suivante :
+	-Un rectangle (x=0, y=0, largeur=4, hauteur=5)
+
+Etape 5 : Affichage du canevas
+
+----- Couche 0
+Couche initialisee
+----- Couche 1
+Rectangle(x=0,y=0, l=2, h=3, aire=6)
+Carre(x=2,y=3, c=4, aire=16)
+Cercle(x=7,y=8, r=6, aire=113.097)
+----- Couche 2
+Rectangle(x=0,y=0, l=4, h=5, aire=20)
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+
+Etape 6 : Affichage de l'aire du canevas 155.097
+
+Etape 7 : Activation de la couche 0 et ajout des trois formes geometrique suivante : 
+	-Un rectangle (x=0, y=0, largeur=1, hauteur=1)
+	-Un carré (x=0, y=0, côté=1)
+	-Un cercle (x=0, y=0, rayon=1)
+
+Etape 8 : Activation et translation de la couche 1 selon : x=5 et y=5
+
+Etape 9 : Initialisation de la couche 2
+
+Etape 10 : Initialisation de la couche 3
+
+Etape 11 : Initialisation de la couche 4
+
+Etape 12 : Affichage du canevas
+
+----- Couche 0
+Rectangle(x=0,y=0, l=1, h=1, aire=1)
+Carre(x=0,y=0, c=1, aire=1)
+Cercle(x=0,y=0, r=1, aire=3.14159)
+----- Couche 1
+Rectangle(x=5,y=5, l=2, h=3, aire=6)
+Carre(x=7,y=8, c=4, aire=16)
+Cercle(x=12,y=13, r=6, aire=113.097)
+----- Couche 2
+Couche initialisee
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+
+Etape 13 : Affichage de l'aire du canevas 140.239
+
+Etape 14 : Retrait de la premiere forme de la couche 1
+
+Etape 15 : Affichage du canevas
+
+----- Couche 0
+Rectangle(x=0,y=0, l=1, h=1, aire=1)
+Carre(x=0,y=0, c=1, aire=1)
+Cercle(x=0,y=0, r=1, aire=3.14159)
+----- Couche 1
+Carre(x=7,y=8, c=4, aire=16)
+Cercle(x=12,y=13, r=6, aire=113.097)
+----- Couche 2
+Couche initialisee
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+
+Etape 16 : Affichage de l'aire du canevas 134.239
+
+Etape 17 : Reinitialisation du canevas
+
+Etape 18 : Affichage du canevas
+
+----- Couche 0
+Couche initialisee
+----- Couche 1
+Couche initialisee
+----- Couche 2
+Couche initialisee
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+
+Etape 19 : Affichage de l'aire du canevas 0
